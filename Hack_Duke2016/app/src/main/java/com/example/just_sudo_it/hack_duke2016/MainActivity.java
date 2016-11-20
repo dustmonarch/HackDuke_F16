@@ -7,8 +7,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import com.google.android.gms.common.api.GoogleApiClient;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.List;
+
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +37,20 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        Button viewPerHourButton = (Button) findViewById(R.id.history_button);
+        viewPerHourButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, HistoryActivity.class));
+            }
+        });
+
+    }
+
+
+    @Override
+    public void onClick(View view) {
+
     }
 
     @Override
@@ -35,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+
     }
 
     @Override
@@ -44,4 +68,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
