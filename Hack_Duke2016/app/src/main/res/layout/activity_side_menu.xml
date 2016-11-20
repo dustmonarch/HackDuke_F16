@@ -15,6 +15,14 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_side_menu"
-        app:menu="@menu/activity_side_menu_drawer" />
+        app:menu="@menu/activity_side_menu_drawer" >
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="215dp"
+            app:srcCompat="@mipmap/icon_time2"
+            android:id="@+id/imageView" />
+
+    </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>
