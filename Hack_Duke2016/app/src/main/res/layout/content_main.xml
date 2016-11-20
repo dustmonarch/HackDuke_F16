@@ -13,15 +13,6 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <CheckBox
-        android:text="CheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="140dp"
-        android:id="@+id/checkBox" />
-
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
         android:layout_height="200dip"

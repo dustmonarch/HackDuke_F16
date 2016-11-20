@@ -1,0 +1,26 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ListActivity" >
+
+     <Button
+         android:text="Reset"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/reset" />
+
+     <Button
+         android:text="Update"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/update" />
+
+     <ListView
+            android:id="@+id/app_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>

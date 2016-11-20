@@ -30,11 +30,7 @@
             android:label="@string/title_activity_login"></activity>
 
         <activity
-            android:name=".AppUsageActivity"></activity>
-
-        <activity
-            android:name=".ScrollingActivity"
-            android:label="@string/title_activity_scrolling"
+            android:name=".ListActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
