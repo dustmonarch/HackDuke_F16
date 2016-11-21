@@ -18,15 +18,15 @@
 
     <include layout="@layout/content_main" />
 
-<<<<<<< HEAD
-=======
-   <!-- <ImageView
-        android:layout_width="102dp"
-        android:layout_height="94dp"
-        app:srcCompat="@mipmap/icon_time2"
-        android:id="@+id/imageView2" />
-        -->
+<!--<<<<<<< HEAD-->
+<!--=======-->
+   <!--&lt;!&ndash; <ImageView-->
+        <!--android:layout_width="102dp"-->
+        <!--android:layout_height="94dp"-->
+        <!--app:srcCompat="@mipmap/icon_time2"-->
+        <!--android:id="@+id/imageView2" />-->
+        <!--&ndash;&gt;-->
 
->>>>>>> 3c3e6441299f493beb7002b5b6326095404c6d8e
+<!--&gt;>>>>>> 3c3e6441299f493beb7002b5b6326095404c6d8e-->
 
 </android.support.design.widget.CoordinatorLayout>
